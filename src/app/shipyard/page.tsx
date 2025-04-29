@@ -93,7 +93,7 @@ export default function Shipyard() {
           > 
             <PrimaryButton
               onClick={() => {
-                window.open('https://github.com/FOSS-Community/fosscu.org/blob/main/src/app/shipyard/README.md', '_blank');
+                window.open("https://github.com/FOSS-Community/fosscu.org/blob/main/src/app/shipyard/README.md");
               }}
             >
               Submit Your Project 🛠️

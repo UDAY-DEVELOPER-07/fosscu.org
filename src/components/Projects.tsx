@@ -1,5 +1,5 @@
 import { Badge } from "./Badge";
-
+import { PrimaryButton } from "./PrimaryButton";
 
 const projectItems = [
   {
@@ -28,7 +28,7 @@ const projectItems = [
   },
   {
     title: "How to contribute",
-    url: "https://github.com/foss-community"
+    url: "/Howtocontribute"
   },
   {
     title: "🧙‍♂️Wand 🪄",
@@ -79,6 +79,7 @@ export const ProjectsSection = () => {
           ))}
         </div>
         <div className="flex justify-center mt-16">
+        
           <Badge text="View all projects on GitHub" href="https://github.com/foss-community" />
         </div>
       </div>
